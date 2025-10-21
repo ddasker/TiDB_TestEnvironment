@@ -28,12 +28,15 @@ brew install orbstack
 ```
 
 ### Make sure you're using ARM Homebrew
+```bash
 which brew
+```
 ### Must show: /opt/homebrew/bin/brew
 
 ### Install OrbStack (ARM version)
+```bash
 brew install --cask orbstack
-
+```
 ### It should now download: arm64.dmg (not amd64.dmg)
 
 ### Step 2: Create Ubuntu VM
