@@ -27,14 +27,14 @@ A comprehensive guide for setting up TiDB cluster on Apple Silicon using OrbStac
 brew install orbstack
 ```
 
-# Make sure you're using ARM Homebrew
+### Make sure you're using ARM Homebrew
 which brew
-# Must show: /opt/homebrew/bin/brew
+### Must show: /opt/homebrew/bin/brew
 
-# Install OrbStack (ARM version)
+### Install OrbStack (ARM version)
 brew install --cask orbstack
 
-# It should now download: arm64.dmg (not amd64.dmg)
+### It should now download: arm64.dmg (not amd64.dmg)
 
 ### Step 2: Create Ubuntu VM
 
