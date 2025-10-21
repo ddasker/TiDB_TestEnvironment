@@ -48,7 +48,7 @@ brew install --cask orbstack
 orb create ubuntu:22.04 tidb-node1
 
 # SSH into the VM
-orb shell tidb-node1
+orb -m tidb-node1
 ```
 
 #### Multiple VMs (Production-like Cluster)
