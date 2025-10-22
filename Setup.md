@@ -61,7 +61,7 @@ orb create ubuntu:22.04 tidb-node3
 
 ### Step 3: Install TiUP
 
-Inside your VM, run:
+Inside each VM, run:
 
 ```bash
 # Install TiUP (TiDB deployment tool)
