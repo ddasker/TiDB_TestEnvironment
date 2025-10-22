@@ -96,7 +96,7 @@ tiup playground v8.5.0 --db 1 --pd 1 --kv 3
 
 This starts:
 - 1 TiDB instance (SQL layer) - Port 4000
-- 1 PD instance (Placement Driver) - Port 2379
+- 1 PD instance (Placement Driver) - Port 2379 
 - 1 TiKV instance (Storage layer) - Port 20160
 - Prometheus (Monitoring) - Port 9090
 - Grafana (Visualization) - Port 3000
@@ -121,6 +121,10 @@ brew install mysql-client
 
 # Connect (replace with your VM IP)
 mysql -h <vm-ip> -P 4000 -u root
+```
+# Open TiDB dashboard - Default user is 'root' with password blank
+```
+http://127.0.0.1:2379/dashboard
 ```
 
 ## Multi-Node Cluster Setup
