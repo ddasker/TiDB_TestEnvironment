@@ -122,7 +122,7 @@ brew install mysql-client
 # Connect (replace with your VM IP)
 mysql -h <vm-ip> -P 4000 -u root
 ```
-# Open TiDB dashboard - Default user is 'root' with password blank
+## Open TiDB dashboard - Default user is 'root' with password blank
 ```
 http://127.0.0.1:2379/dashboard
 ```
